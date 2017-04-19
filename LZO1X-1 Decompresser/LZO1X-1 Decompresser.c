@@ -27,7 +27,8 @@ static const char *progname = NULL;
 #include "examples/portab.h"
 
 void usage() {
-	printf("使用说明待补充");
+	printf("Usage:\n");
+	printf("\tLZO1X-1 Decompresser.exe inputFileName OutputFileName\n");
 }
 
 lzo_uint getFileSize(FILE* fp) {
